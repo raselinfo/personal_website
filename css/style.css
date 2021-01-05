@@ -1,0 +1,202 @@
+/*=== Bebas Neue && Roboto font === */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight:bold;
+}
+p,h3,a{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-weight: 400;
+    font-size:16px;
+}
+h3{
+    font-weight:bold;
+    font-size:24px;
+}
+a{
+    font-size:16px;
+    font-weight:500;
+    text-decoration:none;
+    color:#3C3C3C;
+}
+img{
+    width:80%;
+}
+.container {
+    width:85%;
+    margin:0 auto;
+}
+.btn{
+    display:inline-block;
+    background:linear-gradient(#FF8063,#F46060);
+    padding:15px 45px;
+    color:#FFFFFF; 
+    border-radius:5px;
+    margin-top:20px;
+}
+
+/* === Navbar === */
+.navbar{
+     height: 50px;
+    
+}
+.navbar__menu{
+    list-style-type:none;
+    width:18%;
+
+    float:right;
+   
+}
+.navbar__item{
+    float:left;
+    
+}
+.navbar__link{
+    margin-left:20px;
+}
+
+/* === Header === */
+.header{
+    height:800px;
+    width:100%;
+}
+.header__intro{
+    width:50%;
+    float:left;
+    margin-top:100px;
+}
+.header__intro__title{
+    font-size:80px;
+    color:#363958;
+}
+.header__intro__span{
+    color:#FF8367;
+}
+.header__intro__para{
+    color:#3E3E3E;
+}
+
+.header__profile{
+    width:50%;
+    float:left;
+}
+.header__profile__image{
+    margin-top:-94px;
+}
+
+/* === About === */
+.about{
+    height: 800px;
+}
+.about__profile{
+    width:50%;
+    float:left;
+}
+.about__profile__image{
+    margin-top:-150px;
+}
+.about__intro{
+    width:30%;
+    float:left;
+    padding-left: 165px;
+    margin-top: 100px;
+}
+.about__intro__title{
+    font-size:48px;
+    color:#363958;
+}
+.about__intro__para{
+    color:#3E3E3E;
+}
+.btn_dwn_icon{
+    margin-right:10px;
+}
+
+/* === Projects === */
+.project{
+    background:#F8F9FC;
+    height:800px;
+    padding:80px 0px;
+}
+.project__title{
+    text-align: center;
+    font-size:48px;
+    color:#363958;
+    margin-bottom:100px;
+}
+.project__title__span{
+    color:#F46060;
+}
+.project__card{
+    max-width:30%;
+    float:left;
+    background:#FFFFFF;
+    padding:15px;
+    border-radius:10px;
+}
+.project__card__mr{
+    margin-right:32.5px;
+}
+.project__card__image{
+    width:100%;
+}
+.project__card__title{
+    color:#363958;
+    font-size:24px;
+}
+.project__card__para{
+    color:#6C6C6C;
+}
+
+/* === Work Inquiry === */
+.inquiry{
+   height:400px;
+   padding-top:100px;
+}
+.inquiry__card{
+    background:url('../images/3.png');
+    background-repeat:no-repeat;
+    background-size:100%;
+    width:60%;
+    margin:0 auto;
+    padding:71px;
+   height: 200px;
+}
+.inquiry__card__title{
+    float:left;
+}
+.inquiry__card__title__text{
+    font-size:84px;
+    color:#FFFFFF;
+    line-height: 10px;
+}
+.inquiry__card__button{
+    float:right;
+    margin-top:25px;
+}
+
+/* === footer === */
+.footer{
+    text-align: center;
+    height:250px;;
+  
+}
+.footer__title{
+    font-size:24px;
+    color:#696871;
+}
+.footer__email{
+    font-size:36px;
+    color:#363958;
+}
+.footer__icon{
+    width:50px;
+    margin-right: 10px;
+}
